@@ -1,0 +1,20 @@
+// Base
+//
+// 各要素のデフォルトのスタイルです。
+//
+// Styleguide base
+
+html {
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background: $color-base-white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-base-black;
+  overflow: hidden;
+}
